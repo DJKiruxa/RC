@@ -46,14 +46,12 @@ a {
 	text-decoration: none;
 }
 
-main main part{
-	
-}
-
-
-.main_part{
+.main_section{
 	background-color: #F9F8F5;
-	padding: 0 30% 0 10%;
+}
+.main_part{
+	
+	margin: 0 20%;
 
 }
 h1{
@@ -68,7 +66,7 @@ h1{
 }
 
 .cards{
-	padding: 0 30% 0 10%;
+	margin: 0 20%;
 
 }
 .container{
@@ -85,8 +83,6 @@ h1{
 	width: 300px;
 }
 
-
-
 li{
 	list-style: none;
 }
@@ -96,7 +92,7 @@ footer{
 }
 
 .footer_content{
-	padding: 0 30% 0 10%;
+	margin: 0 20%;
 }
 
 
@@ -109,7 +105,10 @@ footer h3{
 	justify-content:stretch;
 }
 
-footer form{
-
+.footer_content form input{
+	border: 2px solid #000;
+	border-radius: 20%;
+	padding: 10px 5px;
 }
+
 
