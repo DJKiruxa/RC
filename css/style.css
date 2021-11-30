@@ -56,11 +56,14 @@ main main part{
 	padding: 0 30% 0 10%;
 
 }
+h1{
+	font-weight: 1300;
+}
 .main_part h1, h2{
 	margin: 20px 0;
 }
 
-.main_part img{
+.main_part figure{
 	margin: 40px 0;
 }
 
@@ -71,22 +74,14 @@ main main part{
 .container{
 	display: flex;
 	justify-content: space-between;
-	padding: 0 30% 0 10%;
-	
 }
-.container_second{
-	display: flex;
-	justify-content: space-between;
-}
-
-
-
 .column{
 	display: block;
 	
 }
 
 .column img{
+	margin: 40px 0;
 	width: 300px;
 }
 
@@ -96,28 +91,25 @@ li{
 	list-style: none;
 }
 
+footer{
+	background-color: #F9F8F5
+}
+
+.footer_content{
+	padding: 0 30% 0 10%;
+}
 
 
-/*.header__content::before{
-	content: "";
-	width: 100px;
-	border: 1px solid black;
-}*/
+footer h3{
+	margin: 20px 0;
+}
 
-.endNav{
+.footer_things{
 	display: flex;
-	justify-content: space-between;
+	justify-content:stretch;
 }
 
-.downButton, .downButton div{
-	display: flex;
-	align-items: center;
-	flex-direction: column;
-
+footer form{
 
 }
 
-.downButton img{
-	display: block;
-	width:  36px;
-}
