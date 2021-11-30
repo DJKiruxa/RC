@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&display=swap');
 
 :root {
-	--section-background: #ffffff;
+	--section-background1: #ffffff;
+	--section-background2: #F9F8F5;
 	--font-color: #000;
 	/* fonts sizes */
 	--font-size: large;
@@ -16,7 +17,7 @@
 }
 
 header {
-	background-color: var(--section-background);
+	background-color: var(--section-background1);
 }
 .menu{
 	padding: 0 10%;
@@ -47,7 +48,7 @@ a {
 }
 
 .main_section{
-	background-color: #F9F8F5;
+	background-color: var(--section-background2);
 }
 .main_part{
 	
@@ -88,7 +89,7 @@ li{
 }
 
 footer{
-	background-color: #F9F8F5
+	background-color: var(--section-background2);
 }
 
 .footer_content{
