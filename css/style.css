@@ -55,7 +55,7 @@ a {
 
 }
 h1{
-	font-weight: 1300;
+	font-weight: 1000;
 }
 .main_part h1, h2{
 	margin: 20px 0;
@@ -102,7 +102,7 @@ footer h3{
 
 .footer_things{
 	display: flex;
-	justify-content:stretch;
+	justify-content: space-between;
 }
 
 .footer_content form input{
